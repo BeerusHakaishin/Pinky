@@ -8,22 +8,41 @@
 		width:100%;
 }
 
+
+/* Featurette */
+
+.feat_icon{
+  transition: transform 200ms; /* Animation */
+}
+
+.feat_icon:hover{
+  transform: scale(1.2); /* 120% zoom */
+}
+
+
 /* Contact */
 
 #contact{
 	padding-top: 50px;
 }
-
-/* Formulaire */ 
+ 
 
 .form{
 	padding-top: 15px;
 	background-color: rgba(247, 247, 247,0.4);
 }
 
+
+.sub_btn{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
 /* Footer */
 
 .footer{
-	padding-top: 100px;
-	border-top: 2px solid rgb(247, 247, 247);
+	padding-top: 25px;
+	border-top: 1px dotted grey;
+	background-color: white;
 }
+
+
